@@ -18,3 +18,5 @@
 - The ESP32 also supports a wide frequency range for PWM output, making it suitable for generating audible tones across multiple octaves. This allows both simple beeps and   more complex melodies to be produced using the same hardware interface.
 
 - For simple audio applications such as passive buzzers, hardware PWM provides a reliable and low-overhead way to generate tones without requiring external audio hardware.
+
+- While PWM is not true analog audio, it is sufficient for simple waveform generation where precise waveform shaping is not required.
