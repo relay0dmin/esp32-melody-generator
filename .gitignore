@@ -39,3 +39,38 @@
 
 # debug information files
 *.dwo
+
+# arduino build leftovers
+*.ino.cpp
+*.ino.cpp.d
+*.core.a
+
+# esp / arduino build folders
+build/
+.build/
+
+# logs
+*.log
+serial.log
+
+# vscode
+.vscode/*
+!.vscode/settings.json
+
+# jetbrains
+.idea/
+
+# os junk
+.DS_Store
+Thumbs.db
+
+# temp junk
+*.tmp
+*.bak
+*~
+
+# sometimes useful if tools get added later
+.pio/
+lib_deps/
+__pycache__/
+*.pyc
