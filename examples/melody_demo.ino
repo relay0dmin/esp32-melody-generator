@@ -1,6 +1,6 @@
-// Purpose: Demonstrates how to use the melody_player engine to play multiple notes
-// repeatedly with rhythm. This is a simple, original melody to showcase the project.
-// Pin connected to buzzer
+// Purpose: Demonstrates how to use the melody_player engine to play multiple notes repeatedly with rhythm.
+// This is a simple, original melody to showcase the project.
+// Pin 25 connected to buzzer +. buzzer - to ESP32 -.
 
 
 int buzzerPin = 25;
